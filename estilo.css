@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #fff;
+}
+
+header {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+section img {
+  width: 60px;      /* Ancho fijo */
+  height: 60px;     /* Alto fijo */
+  object-fit: contain; /* Ajusta el contenido sin deformar */
+  margin: 10px;
+}
+
+
+footer {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+a.boton {
+  display:inline-block;
+  margin:10px;
+  padding:10px 20px;
+  background:#fff;
+  color:#333;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+a.boton:hover {
+  background:linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* Fondo general por si no hay clase */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Degradado para el index */
+.fondo-index {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* Degradado para Facebook */
+.fondo-facebook {
+  background: linear-gradient(135deg, #3b5998, #192f6a);
+}
+
+/* Degradado para Instagram */
+.fondo-instagram {
+  background: linear-gradient(135deg, #feda75, #d62976, #962fbf, #4f5bd5);
+}
+
+/* Degradado para YouTube */
+.fondo-youtube {
+  background: linear-gradient(135deg, #ff0000, #990000);
+}
+
